@@ -2,8 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 
-URL_TEMPLATE = "https://www.work.ua/ru/jobs-odesa/?page=2"
-FILE_NAME = "test.csv"
+from config import URL_TEMPLATE, FILE_NAME
 
 
 def parse(url = URL_TEMPLATE):
